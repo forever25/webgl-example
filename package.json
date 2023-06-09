@@ -1,0 +1,24 @@
+{
+  "name": "webgl-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "serve:dev": "vite build --watch || pnpm serve",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.8"
+  },
+  "devDependencies": {
+    "vite-plugin-commonjs-externals": "^0.1.3"
+  }
+}
